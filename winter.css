@@ -1,0 +1,711 @@
+/* header1  starts here */
+.header1{
+    border: 2px solid black;
+    display: grid;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 10% 50% 39%;
+    background-color: black;
+    color: white;
+}
+
+/* header1  section  first div css starts here */
+#drop  img{
+    width: 20px;
+    height: 12px;
+    padding-left: 12px;
+    padding-top: 19px;
+}
+#drop{
+    display: flex;
+    /* grid-template-columns: repeat(3,1fr); */
+}
+#drop p{
+    font-size: smaller;
+    padding-left:18px;
+    padding-top: 4px;
+}
+#drop i{
+    padding-top: 19px;
+    padding-left: 3px;
+}
+/* header1  section  first div css ends here */
+/* -------------------------------- */
+/* header1  section  second div css starts here */
+.phno{
+    padding-top: 18px;
+}
+/* header1  section  second div css ends here */
+/* -------------------------------- */
+/* header1  section  third div css starts here */ 
+
+.mwscc ul{ 
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+}
+.mwscc ul li{
+    list-style: none;
+    padding-left:20px ;
+    width: 100%;
+    text-align: center;
+}
+.mwscc a{
+    text-decoration: none;
+    color: white;
+}
+/* header1 section  third div css ends here */
+/* header1  css ends here */
+/* -------------------------------- */
+/* header2 css starts here */
+.header2{
+    /* border: 2px solid rgba(237, 232, 232, 0.923); */
+    height: 50px;;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    /* padding-left: 5px; */
+    display: grid;
+    grid-template-columns:10% 50% 20%  5% 5% 10%;
+}
+/* header2 section  first  div css starts here */
+.ait1 img{
+    width: 120px;
+    height: 45px;
+    padding-left: 20px;
+}
+/* header2 section  first  div css ends here */
+/* -------------------------------- */
+/* header2 section  second  div css starts here */
+.hclbpc ul{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding-left: 200px;
+    padding-right: 60px;
+}
+.hclbpc li{
+    list-style: none;
+    text-align: center;
+    
+}
+.hclbpc a{
+    text-decoration: none;
+    width: 100%;
+    color: black;
+}
+/* .hclbpc ul:nth-child(3){
+    padding-left: 100px;
+} */
+.hclbpc sup{
+    border: 1px solid;
+    border-radius: 8px;
+    width: 130px;
+    color: white;
+    padding: 3px;
+    margin-bottom:1px;
+    /* margin-left: -1px;
+    margin-right: 10px;
+    margin-top: -20px; */
+    background-color:rgb(254, 40, 133);
+    font-size: 50%;
+}
+
+/* header2 section  second  div css ends here */
+/* -------------------------------- */
+/* header2 section  third  div css starts here */
+.searchproducts{
+    padding:15px ;
+
+    
+}
+.searchproducts form{
+    /* display: inline; */
+    border:1px solid rgb(155, 149, 149);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+    width: 180px;
+}
+.searchproducts input{
+    background-color: white;
+    border: none;
+    width: 150px;
+}
+.searchproducts input::placeholder{
+    padding-left: 10px;
+    padding: 5px;
+}
+
+.searchproducts button{
+    background-color:white;
+    height: 10px;
+    border: none;
+    outline: none;
+}
+/* header2 section  third  div css ends here */
+/* -------------------------------- */
+/* header2 section  fourth  div css starts here */
+.ih i{
+    color: black;
+    border: 1px solid rgb(247, 237, 237);
+    margin-top: 6px;
+    padding-top: 9px;
+    padding-left: 10px;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px; 
+    font-size: large;
+}
+.ih sup{
+    border:1px solid rgb(243, 240, 240);
+    border: none;
+    color: white;
+    background-color: #7fcbfa;
+    border-radius: 50px;
+    padding: 4px;
+    font-size:60%;
+    /* margin-right: -20px; */
+}
+/* header2 section  fourth  div css ends here */
+/* -------------------------------- */
+/* header2 section  fifth  div css starts here */
+.ic i{
+    color: black;
+    border: 1px solid rgb(247, 237, 237);
+    margin-top: 6px;
+    padding-top: 9px;
+    padding-left: 10px;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px; ;
+    font-size: large;
+}
+.ic sup{
+    border:1px solid rgb(243, 240, 240);
+    border: none;
+    color: white;
+    background-color: #7fcbfa;
+    border-radius: 50px;
+    padding: 4px;
+    font-size:60%;
+}
+/* header2 section  fifth  div css ends here */
+/* -------------------------------- */
+/* header2 section  sixth div css starts here */
+.signbtn{
+    padding-left: 10px;
+    padding-top: 8px; 
+}
+.signbtn input{
+    background-color: blue;
+    border-radius: 15px;
+    border: none;
+    border-color: white;
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+/* header2 section  sixth  div css ends here */
+/* -------------------------------- */
+/* header2 css ends here */
+/* ----------- */
+/* winter collection first card css starts here */
+.wcfcard{
+    background-image: url(./h1-bgcd.jpg);
+    height: 500px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    margin-left:10px ;
+    margin-right: 10px;
+}
+ .wcfcard #heroin_card img{
+    height: 500px;
+    width: 600px;
+    padding-left: 80px;
+}
+.wcfcard #wcftext1{
+    padding-top: 90px; 
+    padding-left: 10px;
+}
+.wcfcard h3 {
+    font-style: italic;
+    line-height: 10px;
+}
+.wcfcard p{
+    font-style: italic;
+    line-height: 10px;
+}
+.wcfcard h3{
+    color:#0084d6;
+}
+#wcftext1  h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    line-height: 10px;
+}
+#wcftext1 button{
+    border-radius: 20px;
+    border:none ;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 100px;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+}
+/* winter collection first card css ends here */
+/* --------- */
+/* shop by category css starts here */
+  .sbc {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+.shop-by-cat{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+    margin-left: 100px;
+    column-gap: 10px;
+}
+.shop-by-cat img{
+    width: 350px;
+}
+#cat1,#cat2,#cat3{
+    position: relative;
+}
+.cat1-text{
+    position: absolute;
+    top:60px;
+    left: 200px;
+    line-height: 7px;
+}
+.cat1-text h2{
+    color: rgba(1, 6, 12, 0.851);
+}
+.cat1-text p{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: gold;
+    border: none;
+}
+.cat1-text h3{
+    position: absolute;
+    top: 62px;
+    left: 14px;
+    font-style: italic;
+    color: hwb(223 7% 0% / 0.981);
+}
+.cat2-text{
+    position: absolute;
+    top:60px;
+    left: 200px;
+    line-height: 7px; 
+}
+.cat2-text h3{
+    color:hwb(223 7% 0% / 0.981);
+    font-style: oblique;
+    line-height: 5px;
+    padding-left: 30px;
+}
+.cat2-text h2{
+    color: rgba(0, 0, 0, 0.927);
+}
+.cat2-text p{
+    padding-left: 15px;
+    color: rgba(0, 0, 0, 0.927);
+}
+.cat3-text {
+    position: absolute;
+    top:60px;
+    left: 200px;
+    line-height: 7px;
+}
+.cat3-text h2{
+    color: rgba(1, 6, 12, 0.851); 
+}
+.cat3-text p{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: gold;
+    border: none;
+}
+.cat3-text h3{
+    position: absolute;
+    top: 62px;
+    left: 14px;
+    font-style: italic;
+    color: hwb(223 7% 0% / 0.981);  
+}
+/* shop by category css ends here */
+/* latest products css starts here */
+.latest-products{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin-top: 80px;
+}
+.latest-products h1{
+    font-size: 40px;
+    padding-left: 100px;
+}
+ #anfo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-right: 100px;
+    padding-top: 30px;
+    margin-right: 50px;
+    list-style: none;
+    text-align: center;
+   
+}
+#anfo a{
+    text-decoration: none;
+    color: black;
+}
+.lp-hr{
+   margin-left: 80px;
+   margin-right: 100px; 
+}
+.lpi{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 7px;
+}
+.fig1cap , .fig2cap ,.fig3cap ,.fig4cap ,.fig5cap ,.fig6cap{
+    text-align: center;
+}
+.fig1{
+    position: relative; 
+}
+.fig1 #new{
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 40px;
+    font-size: small;
+    position: absolute;
+    background-color:rgb(254, 40, 133);
+    color: white;
+    top: 18px;
+    left: 40px;
+}
+.fig3{
+    position: relative; 
+}
+.fig3 #new{
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 40px;
+    font-size: small;
+    position: absolute;
+    background-color:rgb(254, 40, 133);
+    color: white;
+    top: 18px;
+    left: 40px;
+}
+.fig6{
+    position: relative; 
+}
+.fig6 #new{
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 40px;
+    font-size: small;
+    position: absolute;
+    background-color:rgb(254, 40, 133);
+    color: white;
+    top: 18px;
+    left: 40px;
+}
+.fig1cap i ,.fig2cap i ,.fig3cap i ,.fig4cap i ,.fig5cap i ,.fig6cap i{
+ color:gold;
+}
+.lpi i:nth-of-type(4),.lpi i:nth-of-type(5){
+    color: rgb(217, 200, 200);
+}
+.lpi h4{
+    font-weight: lighter;
+    color:rgb(39, 37, 37);
+}
+.fig1cap P ,.fig2cap P ,.fig3cap P ,.fig4cap P ,.fig5cap P ,.fig6cap P{
+font-weight: bolder;
+}
+.fig1cap s ,.fig2cap s ,.fig3cap s ,.fig4cap s ,.fig5cap s ,.fig6cap s{
+    color: red;
+    padding-left: 10px;
+    font-weight: 900;
+}
+/* latest products css starts here */
+/* find best product css starts here */
+.best-product{
+   background-image: url(./card.png);
+    height: 550px;
+    margin-top: 250px;
+   margin-left: 80px;
+   margin-right: 80px;
+    display: grid;
+    grid-template-columns: 30% 45% 25%;
+}
+.card-man img{
+   width: auto;
+    height: 600px;
+    margin-left: 200px;
+    margin-top: -100px;
+    margin-bottom: -50px;
+}
+.best-product-text{
+margin-top: 180px;
+margin-left: 100px;
+line-height: 15px;
+}
+.best-product-text p{
+    font-weight: 300;
+}
+.best-product-text button{
+    border-radius: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px ;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+}
+.card-shirts img{
+    margin-top: 350px;
+    margin-left: 100px;
+}
+/* find best product css ends here */
+/* best collection card css starts here */
+.collection-card{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+.ccard1{
+padding-left: 200px;
+line-height: 10px;
+padding-top: 70px;
+}
+.ccard1 h1{
+    font-size: xx-large;
+}
+.ccard1 p{
+    font-size: large;
+}
+.ccard1 button{
+border-radius: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+font-size: medium;
+margin-top: 20px;
+background-color: #0084d6;
+color: white;
+width: 130px;
+border: none;
+}
+.ccard1 img{
+    height: 120px;
+    margin-top: 110px;
+}
+.ccard2 img{
+    height: 490px;
+}
+.ccard3{
+    margin-top: 170px;
+    margin-left: 50px;
+    width: 30%;
+  }
+.ccard3-1{
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 20px;
+    width: auto;
+}
+.ccard3-1 #sp1{
+   margin-top: 40px;
+    text-align: right;
+    font-size: small;
+    font-weight: 550;
+}
+.ccard3-1 img{
+    height: 80px;
+}
+.ccard3-2{
+    display: grid;
+    width: auto;
+    margin-top: 30px;
+    grid-template-columns: repeat(2,1fr);
+}
+.ccard3-2 #sp2{
+    margin-top: 40px;
+     text-align: right;
+     font-size: small;
+     font-weight: 550;
+    border: 1px solid salmon;
+     border-radius: 7px;
+     border: none;
+     width: 100px;
+     padding-right: 12px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     background-color: #0084d6;
+     color: white; 
+ }
+.ccard3-2 img{
+    height: 80px;
+}
+.ccard3-3{
+    display: flex;
+    margin-top: 30px;
+    grid-template-columns: repeat(2,1fr);
+}
+.ccard3-3 #sp3{
+    margin-top: 40px;
+    margin-right: 10px;
+     text-align: right;
+     font-size: small;
+     font-weight: 550;
+ }
+.ccard3-3 img{
+    height: 80px;
+}
+/* best collection card css ends here */
+/* latest offers css starts here */
+.offers{
+    margin-top: 100px;
+    background-image: url(./h1-bgcd.jpg);
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.offers-text{
+    margin-top: 70px;
+    margin-left: 250px;
+    line-height: 7px;
+    font-size: x-large;
+}
+.shop-now-btn{
+    margin-top: 125px;
+    /* border-radius: 10PX; */
+}
+/* .shop-now-btn form {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 340px;
+    border:none;
+} */
+.shop-now-btn input{
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: small;
+    width: 250px;
+    font-weight: 300;
+    background-color: white;
+    color: rgb(138, 124, 124);
+}
+.shop-now-btn input::placeholder{
+    padding-left: 15px;
+}
+.shop-now-btn button{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin-left: -35px;
+    width: 120px;
+    font-size: small;
+    font-weight:200;
+    background-color:#0084d6;
+    color: white;
+}
+/* latest offers ends here */
+/* shipping payments css starts here */
+.payments{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    column-gap: 50px;
+}
+#free-shipping i,#spays i,#recycle i{
+    font-size: xx-large;
+}
+#free-shipping ,#spays,#recycle{
+    margin-left: 100px;
+    line-height: 10px;
+}
+#free-shipping h4,#spays h4,#recycle h4{
+    font-size: large;
+}
+#free-shipping p,#spays p,#recycle p{
+    font-size: small;
+    font-weight: lighter;
+}
+/* shipping payments css starts here */
+/* gallery css starts here */
+.gallery img{
+ width: 261px; 
+ padding-left: -50px;  
+}
+.gallery{
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 110px;
+    padding-left: -50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+/* gallery css ends here */
+/* footer css starts here */
+footer{
+    margin-top: 100px;
+    margin-left: 170px;
+    margin-right: 170px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.ait-logo img{
+    margin-top: 20px;
+    width: 130px;
+    height: 30px;
+}
+.ait-logo p{
+    font-size: medium;
+    line-height: 10px;
+    color: rgb(91, 97, 97) ;
+}
+footer h4{
+    padding-left: 40px;
+}
+footer ul{
+    list-style: none;
+    padding-right: 10px;
+    line-height: 30px;
+    font-size: medium;
+    color: rgb(91, 97, 97);
+}
